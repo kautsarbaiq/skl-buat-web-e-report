@@ -1,0 +1,32 @@
+<body>
+  <div class="hero bg-base-200 min-h-screen">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+              <h1 class="text-5xl font-bold">Login sekarang!</h1>
+              <p class="py-6">masih belum memiliki akun? buatlah akun sekarang!</p>
+          </div>
+          <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+              <form method="POST" action="login.php" class="card-body">
+                  <div class="form-control">
+                      <label class="label">
+                          <span class="label-text">username</span>
+                      </label>
+                      <input type="text" placeholder="username" class="input input-bordered" name="username" />
+                  </div>
+                  <div class="form-control">
+                      <label class="label">
+                          <span class="label-text">Password</span>
+                      </label>
+                      <input type="password" placeholder="password" class="input input-bordered" name="password" />
+                  </div>
+                  <div class="form-control mt-6">
+                      <button class="btn btn-primary" type="submit" name="submit">Login</button>
+                  </div>
+                  <div class="form-control mt-4">
+                    <a class="btn btn-primary" href="register.php" class="text-primary">Buat Akun</a>
+                   </div>
+              </form>
+          </div>
+      </div>
+  </div>
+  </body>
