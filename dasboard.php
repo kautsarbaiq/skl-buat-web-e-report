@@ -26,11 +26,12 @@ if (isset($_POST["logout"])) {
 <body>
   <h1>Selamat datang<?= $_SESSION["username"] ?></h1>
 
-  <form action="dasboard.php" method="POST">
-    <button type="submit" name="logout">log outtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt</button>
-  </form>
+<?php include "layout/homepage.php"?>
+  <?php include "layout/navbar.php" ?>
+  <?php include "layout/dasboar.php" ?>
 
-  <?php include "layout/navbar.html" ?>
+
+
 
 
 
@@ -56,3 +57,4 @@ if (isset($_POST["logout"])) {
 </body>
 
 </html>
+

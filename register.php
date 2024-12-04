@@ -38,7 +38,17 @@
                     <div class="form-control mt-6">
                         <button class="btn btn-primary" type="register" name="register">buat</button>
                     </div>
-                    <a href="login.php">login</a>
+                    <div class="form-control mt-3">
+
+
+                        <a href="login.php">
+                            <button class="btn btn-primary w-full" type="button" require_once>
+                                Login
+                            </button>
+
+                        </a>
+
+                    </div>
                 </form>
             </div>
         </div>
@@ -105,5 +115,8 @@ if (isset($_POST['register'])) {
             }
         });
         </script>";
+    }
+    if (isset($_POST["login"])) {
+        header("location: login.php");
     }
 }
