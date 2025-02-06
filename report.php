@@ -64,6 +64,7 @@ $reports = get_data("SELECT * FROM laporan");
         </div>
       </div>
     </div>
+    
 
 
     <!-- ====== card ======== -->
@@ -128,15 +129,7 @@ $reports = get_data("SELECT * FROM laporan");
                 </div>
               </div>
 
-              <!-- Scrip -->
-              <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
-
-              <script src="./node_modules/preline/dist/preline.js"></script>
-              <script src="https://cdn.tailwindcss.com"></script>
-              <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-              <script src="main.js"></script>
-              <script src="./node_modules/preline/dist/preline.js"></script>
-              <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+             
             </div>
           </div>
         </div>
@@ -144,6 +137,16 @@ $reports = get_data("SELECT * FROM laporan");
     </div>
 
   </div>
+  <!-- Scrip -->
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+<script src="./node_modules/preline/dist/preline.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</div>
 
 
 </body>
